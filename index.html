@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pyxlvoid — Poster Designer & Cyber Scholar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#home" class="nav-logo">PYXLVOID</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#vault">Vault</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburger" onclick="toggleMenu()">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-tag">// Poster Designer &amp; Cyber Scholar</div>
+      <h1 class="hero-name">PYXL<span>VOID</span></h1>
+      <div class="hero-roles">
+        <span class="role-badge cyan">Poster Designer</span>
+        <span class="role-badge magenta">Cybersecurity Scholar</span>
+      </div>
+      <p class="hero-desc">Where visual artistry meets digital defense. Bold compositions, intentional design, and deep-rooted cybersecurity knowledge — two worlds of precision colliding.</p>
+      <div class="hero-cta">
+        <a href="#vault" class="btn-primary">View Poster Vault</a>
+        <a href="#about" class="btn-ghost">About Me</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="hero-photo-frame">
+        <img src="images/me.jpg" alt="Prateek Gupta" />
+        <div class="photo-corner tl"></div>
+        <div class="photo-corner tr"></div>
+        <div class="photo-corner bl"></div>
+        <div class="photo-corner br"></div>
+        <div class="photo-scan"></div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      Scroll to explore
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">01 — About</div>
+    <h2 class="section-title reveal">Who I Am <span class="neon-underline"></span></h2>
+    <div class="about-grid reveal">
+      <div class="about-visual">
+        <div class="about-avatar-wrap">
+          <img src="images/me.jpg" alt="Prateek Gupta" />
+          <div class="avatar-corner tl"></div>
+          <div class="avatar-corner tr"></div>
+          <div class="avatar-corner bl"></div>
+          <div class="avatar-corner br"></div>
+        </div>
+      </div>
+      <div class="about-text">
+        <h3>// Design Meets Defense</h3>
+        <p>I'm a poster designer with a passion for bold visual storytelling — creating compositions that hit hard, speak clearly, and leave a mark. My design philosophy lives at the intersection of raw aesthetic power and intentional communication.</p>
+        <p>Simultaneously, I pursue cybersecurity as a scholar — studying threat landscapes, network security, and the invisible architectures that keep digital systems safe. The analytical precision required in both fields feeds one another.</p>
+        <p>Whether I'm composing a graphic that stops the scroll or dissecting a security vulnerability, the same obsessive attention to detail drives everything I do.</p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <div class="stat-num">41+</div>
+            <div class="stat-label">Posters Created</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">∞</div>
+            <div class="stat-label">Creative Vision</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">2x</div>
+            <div class="stat-label">Disciplines</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">01</div>
+            <div class="stat-label">Unique Identity</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">02 — Skills</div>
+    <h2 class="section-title reveal">My Arsenal <span class="neon-underline"></span></h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">🎨</div>
+        <h3>Poster Design</h3>
+        <p>Composing visual narratives with bold typography, strong hierarchy, and intentional negative space.</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:95%"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">✍️</div>
+        <h3>Typography &amp; Layout</h3>
+        <p>Typographic systems, grid structures, and layout principles that turn text into impactful visual design.</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:90%"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🌈</div>
+        <h3>Color Theory</h3>
+        <p>Chromatic relationships, contrast, palette selection, and the psychology of color in visual communication.</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:88%"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">📡</div>
+        <h3>Visual Storytelling</h3>
+        <p>Translating complex concepts into singular, powerful visual moments that communicate instantly.</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:85%"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🔐</div>
+        <h3>Cybersecurity Fundamentals</h3>
+        <p>Network security principles, cryptography, threat modeling, and security architecture.</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🕵️</div>
+        <h3>Threat Analysis</h3>
+        <p>Attack vectors, vulnerability assessment, and analytical frameworks to evaluate digital threats.</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:75%"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🌐</div>
+        <h3>Network Security</h3>
+        <p>Protocols, firewall architectures, intrusion detection, and securing digital infrastructure.</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:78%"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🏷️</div>
+        <h3>Brand Composition</h3>
+        <p>Building cohesive visual identities that translate seamlessly from single posters to full brand systems.</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:82%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POSTER VAULT -->
+  <section id="vault">
+    <div class="vault-header reveal">
+      <div>
+        <div class="section-label">03 — Vault</div>
+        <h2 class="section-title">Poster Vault <span class="neon-underline"></span></h2>
+      </div>
+      <div class="vault-filters" id="filterBtns">
+        <button class="filter-btn active" onclick="filterPosters('all', this)">All</button>
+        <button class="filter-btn" onclick="filterPosters('music', this)">Music</button>
+        <button class="filter-btn" onclick="filterPosters('film', this)">Film &amp; TV</button>
+        <button class="filter-btn" onclick="filterPosters('collage', this)">Collage</button>
+        <button class="filter-btn" onclick="filterPosters('editorial', this)">Editorial</button>
+      </div>
+    </div>
+    <div class="poster-grid" id="posterGrid"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="section-label contact-label">04 — Contact</div>
+      <h2 class="section-title reveal">Let's Connect <span class="neon-underline neon-underline--center"></span></h2>
+      <p class="contact-desc reveal">Whether you want to collaborate on a visual project, discuss cybersecurity, or just appreciate good design — the signal is open.</p>
+      <div class="contact-links reveal">
+        <a href="https://instagram.com/prateek_g0804" target="_blank" class="contact-link">📸 Instagram</a>
+        <a href="https://linkedin.com/in/prateek-gupta-6a8244353" target="_blank" class="contact-link">💼 LinkedIn</a>
+        <a href="mailto:prateek27aprgupta@gmail.com" class="contact-link">📧 Email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>PYXLVOID © 2025</div>
+    <div>Poster Designer · <span>Cybersecurity Scholar</span></div>
+    <div>Built with obsession.</div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-backdrop" onclick="closeLightbox()"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+      <button class="lightbox-nav prev" onclick="navigateLightbox(-1)">‹</button>
+      <button class="lightbox-nav next" onclick="navigateLightbox(1)">›</button>
+      <div class="lightbox-poster" id="lightboxPoster"></div>
+      <div class="lightbox-info">
+        <div>
+          <div class="lightbox-title" id="lightboxTitle"></div>
+          <div class="lightbox-cat" id="lightboxCat"></div>
+        </div>
+        <div class="lightbox-num" id="lightboxNum"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
